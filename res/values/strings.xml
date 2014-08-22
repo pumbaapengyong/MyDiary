@@ -1,0 +1,69 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">心情日记</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">日记</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <string name="help">帮助</string>
+    <string name="about_info">版本信息:\n
+                        我的日记1.0版\n\n
+                        开发者:Seeker\n
+                       联系我:1020118243</string>
+    <string name="help_info">
+       1.编写日记，可以选择字体，日记日期、星期自动获取，天气为自己选择\n
+       2.编写完日记后，返回键自动保存\n
+       3.编写好日记后，可以进行分享。若不想保存该日记，还可以进行删除\n
+       4.在日记列表，点击即可查看并编辑日记，返回键自动保存\n
+       5.若日记过多，难以找到，我们还可以根据内容查询\n
+       6.若您不希望日记对别公开，可以选择信息安全，在里面可以进行加密\n
+       7.加密方法有数字加密（对话框形式）和图形加密，加密方法以最后一次进行加密方法进行处理
+       ，若不想再加密了，则可以取消加密\n
+       8.若用户想退出软件,可以直接按返回键或者点击菜单中的退出\n
+    </string>
+    <string name="ok">确认</string>
+    <string name="welcome_info">天空中没有翅膀的痕迹,但鸟儿已经飞过。昨天虽已过去,而你可以为过去留痕,用你的双手把美好留住。。。</string>
+    <string name="time">时间</string>
+    <string name="week">星期</string>
+    <string name="weather">天气</string>
+    <string name="delete">删除</string>
+    <string name="delete_comfirm">确定要删除该日记吗？</string>
+    <string name="cancel">取消</string>
+    <string-array name="weather">
+        <item name="sunny">晴朗</item> 
+        <item name="cloudy">多云</item>
+        <item name="overcast">阴天</item>
+        <item name="rain">降雨</item>
+        <item name="snow">降雪</item> 
+        <item name="hail">冰雹</item> 
+        <item name="smoky">烟雾</item> 
+        <item name="sandstorm">沙尘暴</item>
+    </string-array>
+    <string name="menu_font_small">小</string>
+    <string name="menu_font_normal">正常</string>
+    <string name="menu_font_large">大</string>
+    <string name="menu_font_super">超大</string>
+    <color name="mycolor">#FFE4C4</color>
+     <!-- Accessibility description sent when user starts drawing a lock pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <!-- Accessibility description sent when the pattern times out and is cleared. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <!-- Accessibility description sent when user adds a cell to the pattern. [CHAR LIMIT=NONE]  -->
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <!-- Accessibility description sent when user completes drawing a pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+    <string name="wrong_pass">密码错误,请重新验证</string>
+    <string name="dif_pass">密码不一致,请重新设置</string>
+    <string name="pass_set_success">密码设置成功</string>
+    <string name="confirm_pass">请确认密码</string>
+    <string name="set_pass">请设置密码</string>
+    <string name="pass_con_title">密码验证</string>
+    <string name="con_delete_diary">确认删除该日记吗？</string>
+    <string name="attention">提示</string>
+    <string name="no_use_op">操作无效,没有选中项</string>
+    <string name="set_password">设置密码</string>
+    <string name="set">设置</string>
+    <string name="pass_cancel">密码已取消</string>
+    <string name="diary_finished">日记已经写过,不能在写,只可编辑</string>
+</resources>
