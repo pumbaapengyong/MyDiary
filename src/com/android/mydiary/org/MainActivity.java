@@ -51,8 +51,13 @@ import android.support.v4.app.NavUtils;
 
 @SuppressLint({ "ParserError", "ParserError" })
 public class MainActivity extends Activity {
+	
+	
+	//can github see the change?
+	//è¿™ä¸ªæ˜¯ä½¿ç”¨utf-8ç¼–ç çš„ä¸­æ–‡ï¼Œgitbubèƒ½çœ‹åˆ°ä¹ˆï¼Ÿ
+	
 	private boolean isSet=false;
-	private static int temp=0;//ÓÃÓÚÅÐ¶ÏBack¼ü°´ÏÂµÄ²Ù×÷
+	private static int temp=0;//ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Backï¿½ï¿½ï¿½ÂµÄ²ï¿½ï¿½ï¿½
 	private CheckBox box=null;
 	private ListView myDiaryInfolListView=null;
 	private ImageButton deleteInfo=null;
@@ -87,7 +92,7 @@ public class MainActivity extends Activity {
 
     
     
-	//»ñÈ¡²Ëµ¥
+	//ï¿½ï¿½È¡ï¿½Ëµï¿½
   	public boolean onCreateOptionsMenu(Menu menu) {
   		getMenuInflater().inflate(R.menu.main, menu);
   		return true;
@@ -118,7 +123,7 @@ public class MainActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
   	
-	//¹ØÓÚ¶Ô»°¿ò
+	//ï¿½ï¿½ï¿½Ú¶Ô»ï¿½ï¿½ï¿½
   	private Dialog aboutDialog(){
   		AlertDialog.Builder mydlg = new AlertDialog.Builder(this);
   		mydlg.setIcon(android.R.drawable.ic_dialog_info);
@@ -133,7 +138,7 @@ public class MainActivity extends Activity {
   		AlertDialog alert = mydlg.create();
   		return alert;
   	}
-  	//°ïÖú¶Ô»°¿ò
+  	//ï¿½ï¿½ï¿½ï¿½Ô»ï¿½ï¿½ï¿½
   	private Dialog helpDialog(){
   		AlertDialog.Builder mydlg = new AlertDialog.Builder(this);
   		mydlg.setIcon(android.R.drawable.ic_dialog_info);
@@ -149,7 +154,7 @@ public class MainActivity extends Activity {
   		AlertDialog alert = mydlg.create();
   		return alert;
   	}
-  	//ÍË³ö
+  	//ï¿½Ë³ï¿½
   	private void exit(){
   		int sdk_Version = android.os.Build.VERSION.SDK_INT;     
   		if (sdk_Version >= 8) {     
