@@ -27,5 +27,6 @@
         <activity android:name=".GraphicPassSetActivity"></activity>
         <activity android:name=".ConfirmPassActivity"></activity>
         <activity android:name=".CheckPassActivity"></activity>
+<!-- agagag-->
     </application>
 </manifest>
